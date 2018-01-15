@@ -43,9 +43,4 @@ body {
                          [center-end] minmax(6rem, 1fr)
                          [full-end]; // 1140/8= 142.5  use 140
   
-  & > * {
-    padding: 4rem;
-    font-size: 3rem;
-  }
-
 }

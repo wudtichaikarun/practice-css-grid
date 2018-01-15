@@ -1,4 +1,11 @@
 .features {
-  background-color: orangered;
+  // background-color: orangered;
+  // main grid
   grid-column: center-start / center-end;
+
+  margin:  15rem 0;
+  // sub grid
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
 }
