@@ -10,6 +10,11 @@
   //grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 6rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 5rem 0;
+    grid-gap: 4rem;
+  }
 }
 
 .feature {
@@ -31,5 +36,9 @@
   &__text {
     font-size: 1.7rem;
 
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    grid-row-gap: 1rem;
   }
 }
